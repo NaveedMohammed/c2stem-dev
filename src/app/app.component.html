@@ -1,39 +1,5 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!--
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    &lt;!&ndash; Brand and toggle get grouped for better mobile display &ndash;&gt;
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">C2STEM</a>
-    </div>
-    &lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
-        &lt;!&ndash;<button class="btn btn-lg btn-outline-primary" (click)="open(content)">Launch demo modal</button>&ndash;&gt;
-        <li><a href="/">Dashboard</a></li>
-        <li><a href="/playground">Playground</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>&lt;!&ndash; /.navbar-collapse &ndash;&gt;
-  </div>&lt;!&ndash; /.container-fluid &ndash;&gt;
-</nav>
--->
+
 
 <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark pink scrolling-navbar ie-nav" [containerInside]="false">
   <mdb-navbar-brand>
@@ -62,14 +28,6 @@
 <!-- Main -->
 <main>
   <div class="maincontainer">
-    <!--<div class="row mt-5 pt-5">
-      <div class="col text-center">
-        <h2>This Navbar is fixed</h2>
-        <h5>It will always stay visible on the top, even when you scroll down</h5>
-        <br>
-        <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
-      </div>
-    </div>-->
     <div class="centerContent" >
       <router-outlet></router-outlet>
     </div>
@@ -90,80 +48,8 @@
       </div>
     </div>
   </div>
-  <!-- Copyright -->
 
 </footer>
-<!-- Footer -->
-<!--<div class="container" style="">-->
-  <!--<ul class="nav nav-tabs ">
-    <li role="presentation"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{exact: true}">
-      <a routerLink="/">Home</a>
-    </li>
-    <li role="presentation"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{exact: true}">
-      <a routerLink="/instruction">Instruction</a>
-    </li>
-    <li role="presentation"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{exact: true}">
-      <a routerLink="/inquiry">Inquiry</a>
-    </li>
-    <li role="presentation"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{exact: true}">
-      <a routerLink="/modelbuild">Model Building</a>
-    </li>
-    <li role="presentation"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{exact: true}">
-      <a routerLink="assessment">Assessment</a>
-    </li>
-    <li role="presentation"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{exact: true}">
-      <a routerLink="/instruction">Instruction</a>
-    </li>
-    <li role="presentation"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{exact: true}">
-      <a routerLink="/inquiry">Inquiry</a>
-    </li>
-    <li role="presentation"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{exact: true}">
-      <a routerLink="/modelbuild">Model Building</a>
-    </li>
-    <li role="presentation"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{exact: true}">
-      <a routerLink="/assessment">Assessment</a>
-    </li>
-    <li role="presentation"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{exact: true}">
-      <a routerLink="/modelbuild">Challenge</a>
-    </li>
-  </ul>-->
-
-
-<!--<nav class="navbar navbar-inverse navbar-fixed-bottom">
-  <div class="container-fluid">
-    &lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Chat</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><button type="button" mdbBtn color="primary" class="relative waves-light" (click)="basicModal.show()" mdbWavesEffect>Launch demo modal</button></li>
-      </ul>
-    </div>&lt;!&ndash; /.navbar-collapse &ndash;&gt;
-  </div>&lt;!&ndash; /.container-fluid &ndash;&gt;
-</nav>-->
-
-
-
 
 
 <div mdbModal #basicModal="mdbModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true" style="overflow-y: auto">
